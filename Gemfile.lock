@@ -69,9 +69,6 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.3)
-    kaminari (0.17.0)
-      actionpack (>= 3.0.0)
-      activesupport (>= 3.0.0)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
@@ -84,7 +81,6 @@ GEM
     multi_json (1.12.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    pg (0.19.0)
     rack (1.6.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -157,8 +153,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  kaminari
-  pg
   rails (= 4.2.7.1)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

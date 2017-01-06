@@ -9,10 +9,8 @@
       </section>
     </aside>
     <div class="col-md-8">
-      <%= page_entries_info @microposts %>
       <h3>Micropost Feed</h3>
       <%= render 'shared/feed' %>
-      <%= paginate @microposts, outer_window: 4 %>
     </div>
   </div>
 <% else %>
