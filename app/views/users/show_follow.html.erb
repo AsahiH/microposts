@@ -7,21 +7,15 @@
         <%= render 'shared/stats' %>
       </section>
       <section class="user_avatars">
-        <% @user.following_users.each do |user| %>
+        <% @users.each do |user| %>
           <%= link_to gravatar_for(user, size: 30), user %>
         <% end %>
       </section>
     </aside>
     <div class="col-md-8">
     <h3>Followings</h3>
-        <% @user.following_users.each do |user| %>
-            <ol class="followings">
-                <li>
-                <%= link_to gravatar_for(user, size: 50), user %>
-
-                <span class="user"><%= link_to user.name, user_path(user) %></span>
-                </li>
-            </ol>  
-        <% end %>
+      <ol class="users">
+        <%= render @users %>
+      </ol>  
     </div>
 </div>

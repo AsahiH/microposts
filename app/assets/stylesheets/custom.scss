@@ -201,7 +201,7 @@ aside {
 
 /* followings */
 
-.followings {
+.users {
   list-style: none;
   padding: 0;
   .li {
@@ -213,7 +213,7 @@ aside {
     padding-top: 0;
   }
   .gravatar {
-    float: left;
+    float: none;
     margin-right: 10px;
     margin-top: 5px;
   }
